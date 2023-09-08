@@ -1,0 +1,21 @@
+body h1,h2,p{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: blueviolet;
+  column-rule-color: blue;
+  text-align: center;
+}
+main{
+  max-width: fit-content;
+  margin: auto;
+  padding: 20px;
+  background-color: aquamarine;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page {
+    text-align: center;
+    color: rgb(255, 253, 253);
+  }
+  
+
+  .hero {
+    background-image: url('https://example.com/your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .hero nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hero nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .hero-content {
+    margin-top: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .hero button {
+    background-color: #2d2dfd;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+ 
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    margin: 0 20px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+  }
+  
+  
+  .contact {
+    background-image: url('https://example.com/contact-bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .contact input,
+  .contact textarea,
+  .contact button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact button {
+    background-color: #fdc22d;
+    color: #1a2a6c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+
+  .footer {
+    background-color: #1a2a6c;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer ul li {
+    cursor: pointer;
+  }
+  
